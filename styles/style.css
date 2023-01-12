@@ -1,0 +1,274 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+ }
+
+ .navigation{
+    max-width: 940px;
+    width: 100%;
+    height: 52px;
+    margin: 0px auto;
+    margin-top: 23px;
+    border-bottom:1px solid #828282;
+ }
+
+ .navigation-block{
+    display: flex;
+    justify-content: center;
+ }
+
+ .navigation-items{
+    margin-right: 41px;
+}
+
+.navigation-links{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #828282;
+    text-decoration: none;
+    text-shadow:-1px 3px 4px #b6b4b4; 
+}
+
+.navigation-links:active{
+    color: #070707;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+}
+
+.main-section{
+    max-width: 940px;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 34px;
+    margin-bottom: 100px;
+}
+
+.main-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 64px;
+    color: #070707;
+    margin-bottom: 39px;
+}
+
+.main-image{
+    max-width: 940px;
+    width: 100%;
+}
+
+
+
+.about-me{
+    width: 100%;
+    height: 520px;
+    background-color:#F6F6F6 ;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+.about-me-header{
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+}
+
+.about-me-chapters{
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 28px;
+}
+
+.chapters{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #070707;
+}
+
+.first-second-chapter{
+    margin-bottom: 50px;
+}
+
+.skills{
+    max-width: 940px;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 200px;
+}
+
+.skills-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 35px;
+}
+
+.skills-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 80px;
+}
+
+.skills-programs{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.programs{
+    margin-right: 175px;
+    width: 80px;
+}
+
+.first-program{
+    margin-left: 45px;
+}
+
+.skills-images{
+    margin-bottom: 27px;
+}
+
+.skills-description{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio{
+    max-width: 940px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.portfolio-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 67px;
+}
+
+.fashion-fig{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-bottom: 115px;
+}
+
+
+
+.fashion-href:visited{
+    color: black;
+}
+
+.fashion-fig-last{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    margin-bottom: 200px;
+}
+
+.footer-block{
+    max-width: 940px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.contacts-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color:#070707 ;
+    margin-bottom: 20px;
+}
+
+.contacts-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color:#070707 ;
+    margin-bottom: 78px;
+}
+
+.contacts-button{
+    display: block;
+    margin: 0px auto;
+    width: 180px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background-color: #070707;
+    margin-bottom: 35px;
+}
+
+.icons{
+    width: 340px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+.icons-list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.like-me{
+    width: 245px ;
+    margin: 0px auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    padding-bottom: 160px;
+}
+
